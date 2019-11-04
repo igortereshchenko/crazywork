@@ -9,3 +9,7 @@ def parseRecordBook(test = 'No data'):
 
     print(test)
     return None
+
+
+def getemaildata():
+    return 'KM  -  87'
