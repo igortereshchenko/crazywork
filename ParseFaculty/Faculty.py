@@ -1,3 +1,4 @@
+import string
 def parse_faculty(text):
     """
         Функція зчитування рядка факультету та виведення у короткому вигляді
@@ -10,7 +11,13 @@ def parse_faculty(text):
                format: XXX
                examples: ФПМ
                          ФІОТ
-        """
-
-    print(text)
-    return None
+    """
+    words = []
+    words = text.split(".")
+    contains = words[0].split()
+    letters = []
+    for word in contains:
+        letters.append(word[0].upper())
+    result = ""
+    result = result.join(letters)
+    return result
