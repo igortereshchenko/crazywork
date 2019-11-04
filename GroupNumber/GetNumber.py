@@ -11,8 +11,4 @@ def getNumber(text):
 
     return group_number
 
-from ParseRecordBook.Parser import parseRecordBook, getemaildata
-
-
-
-print( getNumber( getemaildata() ))
+print( getNumber())
