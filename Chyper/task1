@@ -1,0 +1,10 @@
+def cypher():
+    """
+
+    Функція визначає шифр групи
+    :return: Шифр групи
+    """
+    a=input("Emter your group" )
+    cypher=a[0:2]
+    return cypher
+print(cypher())
